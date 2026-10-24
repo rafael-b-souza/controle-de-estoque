@@ -1,0 +1,138 @@
+{
+  "name": "login-teste3",
+  "slug": "login-teste3",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/icon.png",
+  "userInterfaceStyle": "automatic",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.placeholder.appid"
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#ffffff"
+    },
+    "permissions": [
+      "android.permission.READ_EXTERNAL_STORAGE",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.INTERNET"
+    ],
+    "package": "com.teste.teste",
+    "googleServicesFile": "./google-services.json"
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "_internal": {
+    "isDebug": false,
+    "projectRoot": "c:\\Users\\Rafael\\Desktop\\testes\\Login-App4\\controle-de-estoque",
+    "dynamicConfigPath": null,
+    "staticConfigPath": "c:\\Users\\Rafael\\Desktop\\testes\\Login-App4\\controle-de-estoque\\app.json",
+    "packageJsonPath": "c:\\Users\\Rafael\\Desktop\\testes\\Login-App4\\controle-de-estoque\\package.json",
+    "autolinkedModules": [
+      "expo",
+      "expo-application",
+      "expo-constants",
+      "expo-dev-client",
+      "expo-dev-launcher",
+      "expo-dev-menu",
+      "expo-dev-menu-interface",
+      "expo-file-system",
+      "expo-font",
+      "expo-json-utils",
+      "expo-keep-awake",
+      "expo-manifests",
+      "expo-modules-core",
+      "expo-splash-screen",
+      "expo-updates-interface"
+    ],
+    "pluginHistory": {
+      "react-native-maps": {
+        "name": "react-native-maps",
+        "version": "UNVERSIONED"
+      },
+      "expo-ads-admob": {
+        "name": "expo-ads-admob",
+        "version": "UNVERSIONED"
+      },
+      "expo-apple-authentication": {
+        "name": "expo-apple-authentication",
+        "version": "UNVERSIONED"
+      },
+      "expo-contacts": {
+        "name": "expo-contacts",
+        "version": "UNVERSIONED"
+      },
+      "expo-notifications": {
+        "name": "expo-notifications",
+        "version": "UNVERSIONED"
+      },
+      "expo-updates": {
+        "name": "expo-updates",
+        "version": "UNVERSIONED"
+      },
+      "expo-branch": {
+        "name": "expo-branch",
+        "version": "UNVERSIONED"
+      },
+      "expo-document-picker": {
+        "name": "expo-document-picker",
+        "version": "UNVERSIONED"
+      },
+      "expo-facebook": {
+        "name": "expo-facebook",
+        "version": "UNVERSIONED"
+      },
+      "expo-system-ui": {
+        "name": "expo-system-ui",
+        "version": "UNVERSIONED"
+      },
+      "expo-splash-screen": {
+        "name": "expo-splash-screen",
+        "version": "UNVERSIONED"
+      },
+      "expo-navigation-bar": {
+        "name": "expo-navigation-bar",
+        "version": "UNVERSIONED"
+      },
+      "expo-file-system": {
+        "name": "expo-file-system",
+        "version": "15.4.4"
+      },
+      "expo-dev-menu": {
+        "name": "expo-dev-menu",
+        "version": "3.2.2"
+      },
+      "expo-dev-launcher": {
+        "name": "expo-dev-launcher",
+        "version": "2.4.14"
+      },
+      "expo-dev-client": {
+        "name": "expo-dev-client",
+        "version": "2.4.12"
+      }
+    }
+  },
+  "sdkVersion": "49.0.0",
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "androidStatusBar": {
+    "backgroundColor": "#ffffff"
+  },
+  "mods": {
+    "android": {},
+    "ios": {}
+  }
+}
